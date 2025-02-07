@@ -17,35 +17,35 @@ The **Least Recently Used (LRU) Cache** was formally described in research paper
 
 The LRU caching mechanism follows these principles:
 
-    1. `Capacity Restriction`: It stores a fixed number of key-value pairs.
+1. `Capacity Restriction`: It stores a fixed number of key-value pairs.
 
-    2. `Recency Tracking`: When an item is accessed, it is moved to the most recently used position.
+2. `Recency Tracking`: When an item is accessed, it is moved to the most recently used position.
 
-    3. `Eviction Policy`: When the cache is full, the least recently used item is removed.
+3. `Eviction Policy`: When the cache is full, the least recently used item is removed.
 
 ### Data Structures Used 
 
 An efficient LRU cache is typically implemented using:
 
-    * `Hash Map (Dictionary in Python)`: To store key-value pairs for O(1) access time.
+* `Hash Map (Dictionary in Python)`: To store key-value pairs for O(1) access time.
 
-    * `Doubly Linked List`: To maintain the order of usage, enabling efficient insertions and deletions.
+* `Doubly Linked List`: To maintain the order of usage, enabling efficient insertions and deletions.
 
 ### Complexity Analysis
 
-    * `Insertion (put) and Lookup (get)`: O(1) using an OrderedDict (doubly linked list + hashmap).
+* `Insertion (put) and Lookup (get)`: O(1) using an OrderedDict (doubly linked list + hashmap).
 
-    * `Eviction`: O(1) as the least recently used item is efficiently removed.
+* `Eviction`: O(1) as the least recently used item is efficiently removed.
 
 ### Applications
  
-    * `Operating Systems`: Page replacement algorithms in memory management.
+* `Operating Systems`: Page replacement algorithms in memory management.
 
-    * `Web Browsers`: Caching recently visited pages.
+* `Web Browsers`: Caching recently visited pages.
 
-    * `Databases`: Buffer management in database management systems.
+* `Databases`: Buffer management in database management systems.
 
-    * `Distributed Systems`: Caching frequently requested data to reduce latency.
+* `Distributed Systems`: Caching frequently requested data to reduce latency.
 
 ## Alternate Caching Policies
 
