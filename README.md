@@ -7,7 +7,7 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 ## Introduction
 
-This project utilizes and showcases how an LRU Cache works
+This project utilizes and showcases how an LRU Cache operates. An **LRU (Least Recently Used)** Cache is a data structure that stores a limited number of items and removes the leaset recently used item when the cache reaches its capacity. This ensures that frequently accessed items remain in the cache while older, less accessed items are evicted.
 
 # Methodology
 
